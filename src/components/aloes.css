@@ -1,0 +1,151 @@
+nav {
+  color: #fff;
+}
+
+nav a {
+  color: #fff;
+}
+
+article section {
+  margin: 1rem auto;
+}
+
+article h2 {
+  margin-bottom: .5rem;
+}
+
+article h3 {
+  margin-bottom: .5rem;
+}
+
+blockquote {
+  color: gray;
+}
+
+.plant-heading-group {
+  display: flex;
+}
+
+.plant-thumbnail {
+  margin-right: 1rem;
+}
+
+.plant-title {
+  margin-bottom: .5rem;
+}
+
+.plant-attribute {
+  color: gray;
+  margin-bottom: .25rem;
+}
+
+.plant-description-container .gatsby-image-wrapper {
+  float: left;
+  margin: .5rem 1.5rem 1rem 0;
+
+}
+
+.plant-history-container .gatsby-image-wrapper {
+  float: right;
+  margin: .5rem 0 1rem 1.5rem;
+}
+
+.plant-gallery .gatsby-image-wrapper {
+  margin-right: 1rem;
+}
+
+.plant-overview-info {
+  width: 90%;
+}
+
+.aloes-by-region-container {
+  display: flex;
+}
+
+.aloe-regions-map {
+  flex-grow: 2;
+}
+
+.aloe-regions-list {
+  color: gray;
+  flex-grow: 1;
+  list-style-type: none;
+  margin-left: .5rem;
+  width: 300px;
+}
+
+.aloe-regions-list li {
+  margin-bottom: 1rem;
+}
+
+.aloe-regions-list h2 {
+  font-size: 1.5rem;
+  margin-bottom: .25rem;
+}
+
+.aloe-regions-list a {
+  color: gray;
+}
+
+.aloe-region-description {
+  margin: 1rem 0;
+}
+
+.legend-item:before {
+  background: #457B9D;
+  content: "";
+  height: 1.25rem;
+  width: 1.25rem;
+  margin-right: .5rem;
+  display: inline-block;
+}
+
+.eastern.legend-item:before {
+  background: #9970ab;
+}
+
+.western.legend-item:before {
+  background: #78c679;
+}
+
+.southern.legend-item:before {
+  background: #238b45;
+}
+
+.madagascan.legend-item:before {
+  background: #dfc27d;
+}
+
+/* functional uses for aloes */
+.aloes-by-use-container {
+  padding-top: 1rem;
+}
+
+.aloe-functional-use-list {
+  color: gray;
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.aloe-functional-use-list li {
+  display: flex;
+}
+
+.aloe-functional-use-list h2 {
+  margin-bottom: .5rem;
+}
+
+.aloe-functional-use-list .view-more {
+  display: block;
+}
+
+.aloe-by-use-hero {
+  flex-basis: 300px;
+  flex-shrink: 0;
+  margin-right: .75rem;
+}
+
+.functional-use-copy::first-letter {
+  font-size: 1.75rem;
+  margin-right: .2rem
+}

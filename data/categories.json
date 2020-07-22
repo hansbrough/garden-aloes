@@ -1,0 +1,68 @@
+[
+  {
+    "name": "tree",
+    "slug": "tree-aloes",
+    "title": "Tree Aloes",
+    "description": "Aloes that grow to small tree size with branching trunks that form multiple heads and have the general, branched profile of a tree."
+  },
+  {
+    "name": "single_head_tree",
+    "slug": "single-head-tree-aloes",
+    "title": "Single Head Tree Aloes",
+    "description": "Aloes that grow to small tree size that form a single head atop the trunk and have the profile of a plam tree."
+  },
+  {
+    "name": "branching",
+    "slug": "branching-aloes",
+    "title": "Branching Aloes",
+    "description": "In appearance branching Aloes are somewhere between a small tree and a large shrub in size."
+  },
+  {
+    "name": "single_head_stemless",
+    "slug": "single-head-stemless-aloes",
+    "title": "Single Head Stemless Aloes",
+    "description": "A group of Aloes with a solitary rosette and without a stem. These plant do not create offsets or produce just a few offsets at maturity."
+  },
+  {
+    "name": "large_clumping",
+    "slug": "large-clumping-aloes",
+    "title": "Large Clumping Aloes",
+    "description": "A group of larger sized Aloes that spread by creating offsets (suckers)"
+  },
+  {
+    "name": "clumping",
+    "slug": "smallclumping-aloes",
+    "title": "Small to Medium Clumping Aloes",
+    "description": "A group of small to medium sized Aloes that spread by creating offsets (suckers)"
+  },
+  {
+    "name": "red",
+    "slug": "red-aloes",
+    "title": "Red Aloes",
+    "description": "A handful of Aloes have a burgandy-red blush to the leaves either seasonly or year round."
+  },
+  {
+    "name": "mosaic",
+    "slug": "mosaic-aloes",
+    "title": "Mosaic Aloes",
+    "description": "Similar to maculate Aloes but spots are more frequent, stretched and knit together giving the impression of a mosaic."
+  },
+  {
+    "name": "maculate",
+    "slug": "spotted-aloes",
+    "title": "Spotted Aloes",
+    "description": "A variety of hybridized, low, clustering Aloes which are spotted (maculate)."
+  },
+  {
+    "name": "grass",
+    "slug": "grass-aloes",
+    "title": "Grass Aloes",
+    "description": "Named for their thin leaved grassy appearance."
+  },
+  {
+    "name": "climbing",
+    "slug": "climbing-aloes",
+    "title": "Climbing Aloes",
+    "description": ""
+  }
+]
