@@ -149,3 +149,15 @@ blockquote {
   font-size: 1.75rem;
   margin-right: .2rem
 }
+
+/*-- layout --*/
+header h1 {
+  font-family: "Krona One", sans-serif;
+}
+header nav a {
+  padding: .5rem;
+  text-decoration: none;
+}
+header nav a:hover {
+  text-decoration: underline;
+}

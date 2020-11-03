@@ -12,6 +12,10 @@ import React from "react"
 //independence: rgba(58, 80, 107, 1);
 //sea serpent: rgba(91, 192, 190, 1);
 //aqua marine: rgba(111, 255, 233, 1);
+
+// applied to the currently active page/link
+const activeStyles = { background: "#397194", color:"#F1EEF6"};
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
@@ -42,7 +46,12 @@ const Header = ({ siteTitle }) => (
           margin: `.75rem 0 0 0`,
         }}
       >
-        <Link to="/aloe-categories">Aloe Categories</Link> | <Link to="/aloes-by-flower-color">Aloes by Flower Color</Link> | <Link to="/aloes-by-bloom-time">Aloes by Bloom Time</Link> | <Link to="/aloes-by-location">Aloes by Region</Link> | <Link to="/aloes-by-functional-use">Aloes by Use</Link>
+        <Link to="/aloe-species" activeStyle={activeStyles} partiallyActive={true}>Species List</Link> |
+        <Link to="/aloe-categories" activeStyle={activeStyles} partiallyActive={true}>Categories</Link> |
+        <Link to="/aloes-by-flower-color" activeStyle={activeStyles} partiallyActive={true}>Flower Color</Link> |
+        <Link to="/aloes-by-bloom-time" activeStyle={activeStyles} partiallyActive={true}>Bloom Time</Link> |
+        <Link to="/aloes-by-location" activeStyle={activeStyles} partiallyActive={true}>Region</Link> |
+        <Link to="/aloes-by-functional-use" activeStyle={activeStyles} partiallyActive={true}>Use</Link>
       </nav>
     </div>
   </header>
