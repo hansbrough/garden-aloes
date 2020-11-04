@@ -161,3 +161,22 @@ header nav a {
 header nav a:hover {
   text-decoration: underline;
 }
+
+.hero-card {
+  background: rgba(0,0,0,.02);
+  border: 1px solid rgba(0,0,0,.05);
+  display: flex;
+  padding: .5rem;
+  margin-bottom: 1rem;
+}
+.hero-card h3 {
+  font-family: "Work Sans",Arial,sans-serif;
+}
+.category-hero-img {
+  flex: 1 1 50%;
+}
+
+.hero-overview {
+  flex: 1 1 50%;
+  padding: 1rem;
+}

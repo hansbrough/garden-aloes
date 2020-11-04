@@ -78,7 +78,7 @@ export const query = graphql`
 `
 
 const LocationPage = ({data}) => {
-  
+
   return (
     <Layout>
       <SEO title="Aloes organized by their native regions" />
