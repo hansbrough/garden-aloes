@@ -7,6 +7,25 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-webfonts`,
+      options: {
+        fonts: {
+          google: [
+            {
+              family: "Roboto",
+              variants: ["300", "400", "500"],
+            },
+            {
+              family: "Averia Libre",
+              variants: ["300", "400", "500"],
+            },
+          ],
+        },
+        useMinify: true,
+        usePreload: true,
+      }
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-154920694-1",

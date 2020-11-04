@@ -28,7 +28,7 @@ const AloeSeason = ({ data, pageContext }) => {
     <Layout>
       <SEO title={`${pageContext.season_name} blooming Aloes`} />
       <SEO description={`${pageContext.totalCount} ${pageContext.season_name} blooming Aloes that will look great in your garden.`} />
-      <h1 style={{textTransform:`capitalize`}}>{pageContext.season_name} blooming Aloes ({pageContext.totalCount})</h1>
+      <h2 style={{textTransform:`capitalize`}}>{pageContext.season_name} blooming Aloes ({pageContext.totalCount})</h2>
       <p>
         Are you looking to add some flowers to your waterwise garden during the {pageContext.season_name}?
         These {pageContext.totalCount} Aloes will add great color and match your bloom time needs.

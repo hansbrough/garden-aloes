@@ -97,7 +97,7 @@ const LocationPage = ({data}) => {
         title="Aloes organized by their functional use in the garden"
         description="Find Aloes that can be used as ground cover, focal points, borders, accent plants and more in your garden."
       />
-      <h1>Aloes organized by their garden use</h1>
+      <h2>Aloes organized by their garden use</h2>
       <blockquote cite="https://www.canr.msu.edu/resources/a_guide_for_the_selection_and_use_of_plants_in_the_landscape_e2941">
         <p>
           "Function" refers to the purpose that the plant serves in the landscape. The shade of a tree canopy, the filtered screen from a hedge, or the erosion control of a ground cover addresses the specific objectives of the planting. Plants serve three major functions in our landscapes: architectural, engineering and environmental. We can liken the development of our landscape to the development of rooms in our homes – each room is shaped for its intended use and is accessorized accordingly.
@@ -113,7 +113,7 @@ const LocationPage = ({data}) => {
               className="aloe-by-use-hero"
             />
             <div>
-             <h2 className="barrier">Living Fence or Barrier</h2>
+             <h3 className="barrier">Living Fence or Barrier</h3>
              <p>A living fence is a permanent hedge tight enough and tough enough to serve almost any of the functions of a manufactured fence. <Link to="/barrier-aloes/" className="view-more">{`View ${data.barrier.totalCount} Aloes that grow to create a living fence`}</Link></p>
             </div>
           </li>
@@ -124,7 +124,7 @@ const LocationPage = ({data}) => {
               className="aloe-by-use-hero"
             />
             <div>
-              <h2 className="border">Borders</h2>
+              <h3 className="border">Borders</h3>
               <p>The plants in border beds and along edging help define areas of the outdoor space and offer a transition from one space to the next. <Link to="/aloes-for-use-in-border-planting/" className="view-more">{`View ${data.borders.totalCount} Aloes that make good border plants`}</Link></p>
             </div>
           </li>
@@ -135,7 +135,7 @@ const LocationPage = ({data}) => {
               className="aloe-by-use-hero"
             />
             <div>
-             <h2 className="ground-cover">Ground Covers</h2>
+             <h3 className="ground-cover">Ground Covers</h3>
              <p>Using Aloes as a ground cover will make a beautiful and practical addition to your water-wise garden. <Link to="/ground-cover-aloes/" className="view-more">{`View ${data.ground_cover.totalCount} Ground Cover Aloes`}</Link></p>
             </div>
           </li>
@@ -146,7 +146,7 @@ const LocationPage = ({data}) => {
               className="aloe-by-use-hero"
             />
             <div>
-              <h2 className="focal-points">Garden Focal Points</h2>
+              <h3 className="focal-points">Garden Focal Points</h3>
               <p>Focal points are used in garden design to draw and direct the eye. They act as a visual starting point before viewers take in the finer points of your garden. <Link to="/focal-point-aloes/" className="view-more">{`View ${data.specimen.totalCount} Focal point Aloes`}</Link></p>
             </div>
           </li>
@@ -157,7 +157,7 @@ const LocationPage = ({data}) => {
               className="aloe-by-use-hero"
             />
             <div>
-              <h2 className="focal-points">Accent Plants for the Garden</h2>
+              <h3 className="focal-points">Accent Plants for the Garden</h3>
               <p>Accent plants contrast with their neighbors through a variety of characteristics such as color, texture, size, placement, and form. <Link to="/aloes-for-use-as-accent-plants/" className="view-more">{`View ${data.accent.totalCount} Accent Aloes`}</Link></p>
             </div>
           </li>

@@ -53,7 +53,7 @@ const AloeRegion = ({ data, pageContext }) => {
         title={`${pageContext.regionTitle} Aloes`}
         description={`${pageContext.totalCount} ${pageContext.regionTitle} Aloes ${metaDescriptionSuffix}`}
       />
-      <h1 style={{textTransform:`capitalize`}}>{pageContext.regionTitle} Aloes</h1>
+      <h2 style={{textTransform:`capitalize`}}>{pageContext.regionTitle} Aloes</h2>
       {regionMap && <Img
         className="plant-region-map"
         fluid={regionMap.node.childImageSharp.fluid}

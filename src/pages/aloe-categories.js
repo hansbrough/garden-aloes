@@ -24,7 +24,7 @@ const CategoryPage = ({data}) => {
   return (
     <Layout>
       <SEO title="Aloe Categories" />
-      <h1>Aloe Categories</h1>
+      <h2>Aloe Categories</h2>
 
       <ul>
       {data && data.allCategoriesJson.edges.map(edge => {

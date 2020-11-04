@@ -31,7 +31,7 @@ const AloesOrganizedByATrait = ({ data, pageContext }) => {
         title={`${pageContext.category_name} Aloes with ${pageContext.color_name} colored flowers`}
         description={`${pageContext.totalCount} ${pageContext.color_name} Aloes with ${pageContext.season_name} flowers that will look great in your garden.`}
       />
-      <h1>{`${pageContext.category_name.split('-').join(' ')} Aloes with ${pageContext.color_name} flowers`} ({pageContext.totalCount})</h1>
+      <h2>{`${pageContext.category_name.split('-').join(' ')} Aloes with ${pageContext.color_name} flowers`} ({pageContext.totalCount})</h2>
       <p>
         Are you looking to add some {pageContext.color_name} color to your waterwise garden?
         Here's a handy list of {pageContext.totalCount} {pageContext.category_name} Aloes that are good candidates.

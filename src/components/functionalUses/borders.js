@@ -8,7 +8,7 @@ const FunctionalUseCopy = ({ totalCount }) => {
         title="Aloes that make good border plants"
         description={`${totalCount} Aloes that make good border plants.`}
       />
-      <h1 style={{textTransform:`capitalize`}}>Aloes that make good border plants</h1>
+      <h2 style={{textTransform:`capitalize`}}>Aloes that make good border plants</h2>
       <p className="functional-use-copy">
         The plants in border beds and along edging help define areas of the outdoor space and offer a transition from one space to the next.
         Border planting near patios, walkways or driveways soften hardscaping elements and add visual interest to the space.
