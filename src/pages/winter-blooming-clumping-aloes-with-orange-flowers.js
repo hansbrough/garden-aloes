@@ -32,7 +32,7 @@ const WinterOrangeBloomsColorPage = ({data}) => {
   return (
     <Layout>
       <SEO title="Winter blooming, clumping Aloes with orange flowers" />
-      <h1>Winter blooming, clumping Aloes with orange flowers</h1>
+      <h2>Winter blooming, clumping Aloes with orange flowers</h2>
       <p>
         Are you looking to add some clumping aloes with orange blooms to your waterwise garden this Winter?
         Here's a hand picked list of {data.allAloesJson.totalCount} orange blooming Aloes to match your needs!

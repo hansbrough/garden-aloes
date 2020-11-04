@@ -18,7 +18,7 @@ const IndexPage = ({data}) => {
           className="category-hero-img"
         />
         <div className="hero-overview">
-          <h3>Tree Aloes</h3>
+          <h2>Tree Aloes</h2>
           <p>Some grow fast, some grow slow but when they reach a given stature there's no denying their impact in the garden.</p>
           <Link to="/tree-aloes">Tree Aloes</Link>
         </div>
@@ -31,8 +31,8 @@ const IndexPage = ({data}) => {
           className="flower-hero-img"
         />
         <div className="hero-overview">
-          <h3>Red Flowers!</h3>
-          <p>Aloes claim bragging rights for some of the most spectacular flowers - especially since they are Winter bloomers!</p>
+          <h2>Georgeous Red Flowers!</h2>
+          <p>Aloes claim bragging rights for some of the most spectacular flowers (especially since they are Winter bloomers)</p>
           <Link to="/aloes-with-red-flowers">Aloes with Red Flowers</Link>
         </div>
       </section>
@@ -44,7 +44,7 @@ const IndexPage = ({data}) => {
           className="region-hero-img"
         />
         <div className="hero-overview">
-          <h3>Aloes of Southern Africa</h3>
+          <h2>Aloes of Southern Africa</h2>
           <p>Some of the most beautiful Aloes come the countries that make up Southern Africa.</p>
           <Link to="/aloes-from-southern-africa">See Aloes from Southern Africa</Link>
         </div>
@@ -57,7 +57,7 @@ const IndexPage = ({data}) => {
           className="functional-use-hero-img"
         />
         <div className="hero-overview">
-          <h3>Focal Point Aloes For Your Garden</h3>
+          <h2>Focal Point Aloes For Your Garden</h2>
           <p>Focal points are used in garden design to draw and direct the eye before viewers take in the finer points of your garden.</p>
           <Link to="/focal-point-aloes/">Learn about focal point Aloes</Link>
         </div>

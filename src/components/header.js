@@ -46,11 +46,11 @@ const Header = ({ siteTitle }) => (
           margin: `.75rem 0 0 0`,
         }}
       >
-        <Link to="/aloe-species" activeStyle={activeStyles} partiallyActive={true}>Species List</Link> |
-        <Link to="/aloe-categories" activeStyle={activeStyles} partiallyActive={true}>Categories</Link> |
-        <Link to="/aloes-by-flower-color" activeStyle={activeStyles} partiallyActive={true}>Flower Color</Link> |
-        <Link to="/aloes-by-bloom-time" activeStyle={activeStyles} partiallyActive={true}>Bloom Time</Link> |
-        <Link to="/aloes-by-location" activeStyle={activeStyles} partiallyActive={true}>Region</Link> |
+        <Link to="/aloe-species" activeStyle={activeStyles} partiallyActive={true}>Species List</Link>
+        <Link to="/aloe-categories" activeStyle={activeStyles} partiallyActive={true}>Categories</Link>
+        <Link to="/aloes-by-flower-color" activeStyle={activeStyles} partiallyActive={true}>Flower Color</Link>
+        <Link to="/aloes-by-bloom-time" activeStyle={activeStyles} partiallyActive={true}>Bloom Time</Link>
+        <Link to="/aloes-by-location" activeStyle={activeStyles} partiallyActive={true}>Region</Link>
         <Link to="/aloes-by-functional-use" activeStyle={activeStyles} partiallyActive={true}>Use</Link>
       </nav>
     </div>

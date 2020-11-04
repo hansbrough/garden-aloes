@@ -58,35 +58,35 @@ const BloomTimePage = ({data}) => {
   return (
     <Layout>
       <SEO title="Aloes organized by bloom time" />
-      <h1>Aloes organized by bloom time</h1>
+      <h2>Aloes organized by bloom time</h2>
       <p>
         Are you looking to add some flowers to your waterwise garden at a certain time of year?
         We've done the work for you by organizing over 100 Aloes by their bloom times.
       </p>
       <ul>
         <li>
-          <h2>Fall Blooming Aloes ({data.fall.totalCount})</h2>
+          <h3>Fall Blooming Aloes ({data.fall.totalCount})</h3>
           <p><Link to="/aloes-that-bloom-in-fall">Show only Aloes that bloom in the Fall</Link></p>
           {data && data.fall.edges &&
             <OverviewPreviewCard edges={data.fall.edges} axis="flowering" truncate />
           }
         </li>
         <li>
-          <h2 style={{fontSize:`1.5rem`, marginBottom: `.5rem` }}>Winter Blooming Aloes  ({data.winter.totalCount})</h2>
+          <h3>Winter Blooming Aloes  ({data.winter.totalCount})</h3>
           <p><Link to="/aloes-that-bloom-in-winter">Show only Aloes that bloom in the Winter</Link></p>
           {data && data.winter.edges &&
             <OverviewPreviewCard edges={data.winter.edges} axis="flowering" truncate />
           }
         </li>
         <li>
-          <h2>Spring Blooming Aloes ({data.spring.totalCount})</h2>
+          <h3>Spring Blooming Aloes ({data.spring.totalCount})</h3>
           <p><Link to="/aloes-that-bloom-in-spring">Show only Aloes that bloom in the Spring</Link></p>
           {data && data.spring.edges &&
             <OverviewPreviewCard edges={data.spring.edges} axis="flowering" truncate />
           }
         </li>
         <li>
-          <h2>Summer Blooming Aloes  ({data.summer.totalCount})</h2>
+          <h3>Summer Blooming Aloes  ({data.summer.totalCount})</h3>
           <p><Link to="/aloes-that-bloom-in-summer">Show only Aloes that bloom in the Summer</Link></p>
           {data && data.summer.edges &&
             <OverviewPreviewCard edges={data.summer.edges} axis="flowering" truncate />

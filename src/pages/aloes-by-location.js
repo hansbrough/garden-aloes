@@ -82,7 +82,7 @@ const LocationPage = ({data}) => {
   return (
     <Layout>
       <SEO title="Aloes organized by their native regions" />
-      <h1>Aloes organized by their native regions</h1>
+      <h2>Aloes organized by their native regions</h2>
       <p>
         Plants of the genus Aloe come from a variety of areas in the Western, Central, Eastern and Southern regions of Africa as well as Madagascar and the Saudi Arabian penninsula.
       </p>
@@ -94,27 +94,27 @@ const LocationPage = ({data}) => {
         />
         <ul className="aloe-regions-list">
           <li>
-            <h2 className="eastern legend-item" style={{ color:`#9970ab` }}>East African Aloes</h2>
+            <h3 className="eastern legend-item" style={{ color:`#9970ab` }}>East African Aloes</h3>
             <p>Has approximately 200 Aloe species. <Link to="/aloes-from-eastern-africa">{`View ${data.eastern.totalCount} Aloes from Eastern Africa`}</Link></p>
           </li>
           <li>
-            <h2 className="southern legend-item" style={{color:`#238b45` }}>Southern African Aloes</h2>
+            <h3 className="southern legend-item" style={{color:`#238b45` }}>Southern African Aloes</h3>
             <p>Has approximately 290 Aloe species. <Link to="/aloes-from-southern-africa">{`View ${data.southern.totalCount} Aloes from Southern Africa`}</Link></p>
           </li>
           <li>
-            <h2 className="western legend-item" style={{color:`#78c679`}}>Central and Western African Aloes</h2>
+            <h3 className="western legend-item" style={{color:`#78c679`}}>Central and Western African Aloes</h3>
             <p>Has approximately 30 Aloe species. <Link to="/aloes-from-western-africa">{`View ${data.western.totalCount} Aloes from Central and Western Africa`}</Link></p>
           </li>
           <li>
-            <h2 className="madagascan legend-item" style={{color:`#dfc27d`}}>Madagascan Aloes</h2>
+            <h3 className="madagascan legend-item" style={{color:`#dfc27d`}}>Madagascan Aloes</h3>
             <p>Has approximately 50 Aloe species. <Link to="/aloes-from-madagascar">{`View ${data.madagascan.totalCount} Aloes from Madagascar`}</Link></p>
           </li>
           <li>
-            <h2 className="arabian legend-item">Saudi Arabian Peninsula Aloes</h2>
+            <h3 className="arabian legend-item">Saudi Arabian Peninsula Aloes</h3>
             <p>Has approximately 50 Aloe species. <Link to="/aloes-from-the-arabian-peninsula">{`View ${data.arabian.totalCount} Aloes from the Arabian Peninsula`}</Link></p>
           </li>
           <li>
-            <h2 className="hybrid legend-item">Hybrid Aloes</h2>
+            <h3 className="hybrid legend-item">Hybrid Aloes</h3>
             <p>There are countless hybrid species! <Link to="/aloes-from-hybrids">{`View ${data.hybrid.totalCount} Hybrid Aloes`}</Link></p>
           </li>
         </ul>

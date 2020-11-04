@@ -8,7 +8,7 @@ const AloeSpeciesPage = ({data}) => {
   return (
     <Layout>
       <SEO title="Aloe Species List" />
-      <h1>Aloe Species List</h1>
+      <h2>Aloe Species List</h2>
       <ul>
       {data && data.allAloesJson.edges.map(edge => {
         const aloe = edge.node;

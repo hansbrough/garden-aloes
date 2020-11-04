@@ -30,7 +30,7 @@ const Aloe = ({ data, pageContext }) => {
         title={`A list of ${pageContext.category_title}`}
         description={`${data.allAloesJson.totalCount} ${pageContext.category_title} that will look great in your garden.`}
       />
-      <h1>{pageContext.category_title}</h1>
+      <h2>{pageContext.category_title}</h2>
       <p>{pageContext.category_description}</p>
       <p></p>
       <ul style={{marginLeft:`0px`}}>

@@ -106,32 +106,32 @@ const Aloe = ({ data, pageContext }) => {
             />
           }
           <div>
-            <h1 className="plant-title">{aloe.title}</h1>
+            <h2 className="plant-title">{aloe.title}</h2>
             <p className="plant-alias plant-attribute">{akaText}</p>
             <p className="aloe-category plant-attribute">Category: {data.aloeCategory.title}</p>
             <p className="usda-hardiness plant-attribute">USDA Hardiness Zones: {aloe.usda_hardiness}</p>
           </div>
         </section>
 
-        <section><h2>Overview</h2>{aloe.overview}</section>
+        <section><h3>Overview</h3>{aloe.overview}</section>
         <section className="plant-description-container">
-          <h2>Description</h2>
+          <h3>Description</h3>
           {getNextImage()}
           {aloe.description}
         </section>
-        <section><h2>Flowering</h2>{aloe.flowering}</section>
+        <section><h3>Flowering</h3>{aloe.flowering}</section>
         <section className="plant-history-container">
-          <h2>Origin / History</h2>
+          <h3>Origin / History</h3>
           {getNextImage()}
           {aloe.origin_history}
           <p>
             <Link to={LocationUtil.getRegionUrlPathByLocation(aloe.location)}>{`Discover more ${LocationUtil.getRegionTitleByLocation(aloe.location)} Aloes`}</Link>
           </p>
         </section>
-        <section><h2>Care / Cultivation</h2>{aloe.care_cultivation}</section>
-        <section><h2>Frost Tenderness</h2>{aloe.frost}</section>
+        <section><h3>Care / Cultivation</h3>{aloe.care_cultivation}</section>
+        <section><h3>Frost Tenderness</h3>{aloe.frost}</section>
         <section>
-          <h2>Use in the Garden</h2>
+          <h3>Use in the Garden</h3>
           {aloe.use}
           <p>
             <Link to={FunctionalUseUtil.getUrlPath(aloe.function,builtUses)}>{FunctionalUseUtil.getTitle(aloe.function,builtUses)}</Link>

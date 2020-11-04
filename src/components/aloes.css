@@ -152,9 +152,13 @@ blockquote {
 
 /*-- layout --*/
 header h1 {
-  font-family: "Krona One", sans-serif;
+  /*font-family: "Krona One", sans-serif;*/
+  font-family: 'Averia Libre', cursive;
+  letter-spacing: .25rem;
 }
 header nav a {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
   padding: .5rem;
   text-decoration: none;
 }
@@ -166,12 +170,9 @@ header nav a:hover {
   background: rgba(0,0,0,.02);
   border: 1px solid rgba(0,0,0,.05);
   display: flex;
-  padding: .5rem;
   margin-bottom: 1rem;
 }
-.hero-card h3 {
-  font-family: "Work Sans",Arial,sans-serif;
-}
+
 .category-hero-img {
   flex: 1 1 50%;
 }
@@ -179,4 +180,9 @@ header nav a:hover {
 .hero-overview {
   flex: 1 1 50%;
   padding: 1rem;
+}
+
+.hero-overview {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
 }
