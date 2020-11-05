@@ -1,0 +1,68 @@
+:root {
+  /*
+  * Triad Colors
+  * note: saving this palette as an example - not happy w/ color scheme
+  */
+  /*-Primary */
+  --primary-color-r: 167;
+  --primary-color-g: 192;
+  --primary-color-b: 97;
+  /*-Secondary #1 */
+  --secondary-color-1-r: 193;
+  --secondary-color-1-g: 98;
+  --secondary-color-1-b: 111;
+  /*-Secondary #2 */
+  --secondary-color-2-r: 108;
+  --secondary-color-2-g: 73;
+  --secondary-color-2-b: 136;
+
+  --primary-color: rgba(var(--primary-color-r), var(--primary-color-g), var(--primary-color-b));
+  --primary-color-10: rgba(var(--primary-color-r), var(--primary-color-g), var(--primary-color-b), .1 );
+  --primary-color-20: rgba(var(--primary-color-r), var(--primary-color-g), var(--primary-color-b), .2 );
+  --primary-color-30: rgba(var(--primary-color-r), var(--primary-color-g), var(--primary-color-b), .3 );
+  --primary-color-40: rgba(var(--primary-color-r), var(--primary-color-g), var(--primary-color-b), .4 );
+  --primary-color-50: rgba(var(--primary-color-r), var(--primary-color-g), var(--primary-color-b), .5 );
+  --primary-color-60: rgba(var(--primary-color-r), var(--primary-color-g), var(--primary-color-b), .6 );
+  --primary-color-70: rgba(var(--primary-color-r), var(--primary-color-g), var(--primary-color-b), .7 );
+  --primary-color-80: rgba(var(--primary-color-r), var(--primary-color-g), var(--primary-color-b), .8 );
+  --primary-color-90: rgba(var(--primary-color-r), var(--primary-color-g), var(--primary-color-b), .9 );
+
+
+  --secondary-color-1: rgba(var(--secondary-color-1-r), var(--secondary-color-1-g), var(--secondary-color-1-b));
+  --secondary-color-1-10: rgba(var(--secondary-color-1-r), var(--secondary-color-1-g), var(--secondary-color-1-b), .1 );
+  --secondary-color-1-20: rgba(var(--secondary-color-1-r), var(--secondary-color-1-g), var(--secondary-color-1-b), .2 );
+  --secondary-color-1-30: rgba(var(--secondary-color-1-r), var(--secondary-color-1-g), var(--secondary-color-1-b), .3 );
+  --secondary-color-1-40: rgba(var(--secondary-color-1-r), var(--secondary-color-1-g), var(--secondary-color-1-b), .4 );
+  --secondary-color-1-50: rgba(var(--secondary-color-1-r), var(--secondary-color-1-g), var(--secondary-color-1-b), .5 );
+  --secondary-color-1-60: rgba(var(--secondary-color-1-r), var(--secondary-color-1-g), var(--secondary-color-1-b), .6 );
+  --secondary-color-1-70: rgba(var(--secondary-color-1-r), var(--secondary-color-1-g), var(--secondary-color-1-b), .7 );
+  --secondary-color-1-80: rgba(var(--secondary-color-1-r), var(--secondary-color-1-g), var(--secondary-color-1-b), .8 );
+  --secondary-color-1-90: rgba(var(--secondary-color-1-r), var(--secondary-color-1-g), var(--secondary-color-1-b), .9 );
+
+  --secondary-color-2: rgba(var(--secondary-color-2-r), var(--secondary-color-2-g), var(--secondary-color-2-b));
+  --secondary-color-2-10: rgba(var(--secondary-color-2-r), var(--secondary-color-2-g), var(--secondary-color-2-b), .1 );
+  --secondary-color-2-20: rgba(var(--secondary-color-2-r), var(--secondary-color-2-g), var(--secondary-color-2-b), .2 );
+  --secondary-color-2-30: rgba(var(--secondary-color-2-r), var(--secondary-color-2-g), var(--secondary-color-2-b), .3 );
+  --secondary-color-2-40: rgba(var(--secondary-color-2-r), var(--secondary-color-2-g), var(--secondary-color-2-b), .4 );
+  --secondary-color-2-50: rgba(var(--secondary-color-2-r), var(--secondary-color-2-g), var(--secondary-color-2-b), .5 );
+  --secondary-color-2-60: rgba(var(--secondary-color-2-r), var(--secondary-color-2-g), var(--secondary-color-2-b), .6 );
+  --secondary-color-2-70: rgba(var(--secondary-color-2-r), var(--secondary-color-2-g), var(--secondary-color-2-b), .7 );
+  --secondary-color-2-80: rgba(var(--secondary-color-2-r), var(--secondary-color-2-g), var(--secondary-color-2-b), .8 );
+  --secondary-color-2-90: rgba(var(--secondary-color-2-r), var(--secondary-color-2-g), var(--secondary-color-2-b), .9 );
+
+
+  /* App Theme / Brand */
+  --body-bg-color: var(--primary-color-10);
+  --body-color: rgba(28, 37, 65, 1);
+  --header-color: var(--primary-color);
+  --header-nav-item-color: var(--secondary-color-10);
+  --headline-color: var(--secondary-color-1-90);
+  --subheadline-color: var(--secondary-color-1-80);
+  --anchor-color: var(--secondary-color-2-90);
+
+  --hero-card-bg: var(--primary-color-10);
+
+  --primary-border-color: var(--primary-color-10);
+  --primary-hover-color: var(--primary-color);
+  --text-on-dark-color: white;
+}

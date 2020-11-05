@@ -1,0 +1,41 @@
+:root {
+  /*
+  * Triad Colors
+  * #9ECC7D, #E7A98E, #9D6098
+  * note: saving this palette as an example - not happy w/ color scheme
+  */
+  /*-Primary */
+  --primary-color-h: 95;
+  --primary-color-s: 44%;
+  --primary-color-l: 65%;
+
+  --primary-color: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l));
+  --primary-color-110: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) - 10%));
+  --primary-color-90: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 5%));
+  --primary-color-80: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 8%));
+  --primary-color-70: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 10%));
+  --primary-color-60: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 12%));
+  --primary-color-50: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 15%));
+  --primary-color-40: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 18%));
+  --primary-color-30: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 20%));
+  --primary-color-20: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 22%));
+  --primary-color-10: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 30%));
+
+
+  /* App Theme */
+  --body-bg-color: var(--primary-color-10);
+  --body-color: rgba(28, 37, 65, 1);
+  --header-color: var(--primary-color);
+  --header-nav-item-color: var(--primary-color-10);
+  --header-nav-item-hover-bg: var(--primary-color-90);
+  --header-nav-item-active-bg: var(--primary-color-80);
+
+  --headline-color: var(--primary-color-110);
+  --subheadline-color: var(--primary-color);
+  --anchor-color: var(--primary-color-90);
+
+  --hero-card-bg: var(--primary-color-20);
+  --hero-card-border-color: var(--primary-color-30);
+
+  --info-text-color: gray;
+}

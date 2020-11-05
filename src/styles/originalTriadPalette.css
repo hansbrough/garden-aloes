@@ -1,0 +1,48 @@
+:root {
+  /*
+  * Two Colors (that match the original blue/cream design)
+  * #457A9D, #f1faee
+  */
+  /*-Primary */
+  --primary-color-h: 204;
+  --primary-color-s: 39%;
+  --primary-color-l: 44%;
+  /*-Secondary */
+  --secondary-color-1-h: 105;
+  --secondary-color-1-s: 55%;
+  --secondary-color-1-l: 96%;
+
+
+  --primary-color: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l));
+  --primary-color-90: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 5%));
+  --primary-color-80: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 8%));
+  --primary-color-70: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 10%));
+  --primary-color-60: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 12%));
+  --primary-color-50: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 15%));
+  --primary-color-40: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 18%));
+  --primary-color-30: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 20%));
+  --primary-color-20: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 28%));
+  --primary-color-10: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 35%));
+
+
+  --secondary-color-1: hsl(var(--secondary-color-1-h), var(--secondary-color-1-s), var(--secondary-color-1-l));
+  --secondary-color-1-110: hsl(var(--secondary-color-1-h), var(--secondary-color-1-s), calc(var(--secondary-color-1-l) - 1%));
+
+
+  /* App Theme */
+  --body-bg-color: var(--secondary-color-1);
+  --body-color: rgba(28, 37, 65, 1);
+  --header-color: var(--primary-color);
+  --header-nav-item-color: var(--secondary-color-1-110);
+  --header-nav-item-hover-bg: var(--primary-color-90);
+  --header-nav-item-active-bg: var(--primary-color-80);
+
+  --headline-color: var(--primary-color-90);
+  --subheadline-color: var(--primary-color-80);
+  --anchor-color: var(--primary-color-50);
+
+  --hero-card-bg: var(--secondary-color-1-110);
+  --hero-card-border-color: var(--primary-color-10);
+
+  --info-text-color: gray;
+}

@@ -4,15 +4,15 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
-const AloeSpeciesPage = ({data}) => {
+const AloeSpeciesPage = ({data, location}) => {
   return (
-    <Layout>
+    <Layout pathname={location.pathname}>
       <SEO title="Aloe Species List" />
       <h2>Aloe Species List</h2>
       <ul>
       {data && data.allAloesJson.edges.map(edge => {
         const aloe = edge.node;
-        return (<li key={aloe.slug}><Link to={aloe.slug}>{aloe.title}</Link></li>)
+        return (<li key={aloe.slug}><Link to={`/${aloe.slug}`}>{aloe.title}</Link></li>)
       })}
       </ul>
     </Layout>

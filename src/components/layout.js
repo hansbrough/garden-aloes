@@ -12,7 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, pathname }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -24,9 +24,10 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div className={pathname && pathname.replace(/^\/|\/$/g, '')}>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
+
         style={{
           margin: `0 auto`,
           maxWidth: 960,
@@ -41,7 +42,7 @@ const Layout = ({ children }) => {
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
       </div>
-    </>
+    </div>
   )
 }
 

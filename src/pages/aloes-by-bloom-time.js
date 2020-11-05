@@ -54,9 +54,9 @@ export const query = graphql`
   }
 `
 
-const BloomTimePage = ({data}) => {
+const BloomTimePage = ({data, location}) => {
   return (
-    <Layout>
+    <Layout pathname={location.pathname}>
       <SEO title="Aloes organized by bloom time" />
       <h2>Aloes organized by bloom time</h2>
       <p>
