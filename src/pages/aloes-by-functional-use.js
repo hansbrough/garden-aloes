@@ -90,9 +90,9 @@ export const query = graphql`
   }
 `
 
-const LocationPage = ({data}) => {
+const FunctionalUsePage = ({data, location}) => {
   return (
-    <Layout>
+    <Layout pathname={location.pathname}>
       <SEO
         title="Aloes organized by their functional use in the garden"
         description="Find Aloes that can be used as ground cover, focal points, borders, accent plants and more in your garden."
@@ -167,4 +167,4 @@ const LocationPage = ({data}) => {
   )
 }
 
-export default LocationPage
+export default FunctionalUsePage

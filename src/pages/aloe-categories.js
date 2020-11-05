@@ -20,9 +20,9 @@ export const query = graphql`
   }
 `
 
-const CategoryPage = ({data}) => {
+const CategoryPage = ({data, location}) => {
   return (
-    <Layout>
+    <Layout pathname={location.pathname}>
       <SEO title="Aloe Categories" />
       <h2>Aloe Categories</h2>
 
@@ -33,7 +33,7 @@ const CategoryPage = ({data}) => {
           <li key={cat.title} style={{marginBottom: `1.5rem` }}>
           <h3 style={{fontSize:`1rem`, marginBottom: `.25rem` }}>{cat.title}</h3>
           <p style={{marginBottom: `.5rem` }}>{cat.description}</p>
-          <Link to={cat.slug}>See all {cat.title}</Link>
+          <Link to={`/${cat.slug}`}>See all {cat.title}</Link>
           </li>
         )
       })}

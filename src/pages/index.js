@@ -8,7 +8,7 @@ import SEO from "../components/seo";
 
 const IndexPage = ({data}) => {
   return (
-    <Layout>
+    <Layout pathname="aloe-home">
       <SEO title="Home" />
 
       <section className="hero-card category">

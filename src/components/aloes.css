@@ -1,9 +1,18 @@
+@import '../styles/originalTriadPalette.css';
+
 nav {
-  color: #fff;
+  color: var(--header-nav-item-color);
 }
 
 nav a {
-  color: #fff;
+  color: var(--header-nav-item-color);
+}
+
+nav a:hover {
+  background: var(--header-nav-item-hover-bg);
+}
+nav a:active {
+  background: var(--header-nav-item-active-bg);
 }
 
 article section {
@@ -19,7 +28,7 @@ article h3 {
 }
 
 blockquote {
-  color: gray;
+  color: var(--info-text-color);
 }
 
 .plant-heading-group {
@@ -35,7 +44,7 @@ blockquote {
 }
 
 .plant-attribute {
-  color: gray;
+  color: var(--info-text-color);
   margin-bottom: .25rem;
 }
 
@@ -67,7 +76,7 @@ blockquote {
 }
 
 .aloe-regions-list {
-  color: gray;
+  color: var(--info-text-color);
   flex-grow: 1;
   list-style-type: none;
   margin-left: .5rem;
@@ -84,7 +93,7 @@ blockquote {
 }
 
 .aloe-regions-list a {
-  color: gray;
+  color: var(--info-text-color);
 }
 
 .aloe-region-description {
@@ -129,6 +138,7 @@ blockquote {
 
 .aloe-functional-use-list li {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .aloe-functional-use-list h2 {
@@ -151,8 +161,16 @@ blockquote {
 }
 
 /*-- layout --*/
+.aloe-species a[href="/aloe-species"],
+.aloe-categories a[href="/aloe-categories"],
+.aloes-by-flower-color a[href="/aloes-by-flower-color"],
+.aloes-by-bloom-time a[href="/aloes-by-bloom-time"],
+.aloes-by-location a[href="/aloes-by-location"],
+.aloes-by-functional-use a[href="/aloes-by-functional-use"] {
+  background: var(--header-nav-item-active-bg);
+}
+
 header h1 {
-  /*font-family: "Krona One", sans-serif;*/
   font-family: 'Averia Libre', cursive;
   letter-spacing: .25rem;
 }
@@ -167,8 +185,8 @@ header nav a:hover {
 }
 
 .hero-card {
-  background: rgba(0,0,0,.02);
-  border: 1px solid rgba(0,0,0,.05);
+  background: var(--hero-card-bg);
+  border: 1px solid var(--hero-card-border-color);
   display: flex;
   margin-bottom: 1rem;
 }

@@ -77,10 +77,10 @@ export const query = graphql`
   }
 `
 
-const LocationPage = ({data}) => {
+const LocationPage = ({data, location}) => {
 
   return (
-    <Layout>
+    <Layout pathname={location.pathname}>
       <SEO title="Aloes organized by their native regions" />
       <h2>Aloes organized by their native regions</h2>
       <p>

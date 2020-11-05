@@ -77,9 +77,9 @@ export const query = graphql`
   }
 `
 
-const FlowerColorPage = ({data}) => {
+const FlowerColorPage = ({data, location}) => {
   return (
-    <Layout>
+    <Layout pathname={location.pathname}>
       <SEO title="Aloes organized by flower color" />
       <h2>Aloes organized by flower color</h2>
       <p>Are you looking to add some color to your waterwise garden? We have you covered! We compiled over 100 aloe flowers and divided them by color so you could easily bring a pop of your favorite hue to your backyard.</p>

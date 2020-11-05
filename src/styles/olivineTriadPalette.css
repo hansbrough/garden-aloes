@@ -1,0 +1,71 @@
+:root {
+  /*
+  * Triad Colors
+  * #9ECC7D, #E7A98E, #9D6098
+  * note: saving this palette as an example - not happy w/ color scheme
+  */
+  /*-Primary */
+  --primary-color-h: 95;
+  --primary-color-s: 44%;
+  --primary-color-l: 65%;
+  /*-Secondary #1 */
+  --secondary-color-1-h: 18;
+  --secondary-color-1-s: 65%;
+  --secondary-color-1-l: 73%;
+  /*-Secondary #2 */
+  --secondary-color-2-h: 305;
+  --secondary-color-2-s: 24%;
+  --secondary-color-2-l: 50%;
+
+  --primary-color: hsl(var(--primary-color-h), var(--primary-color-s), var(--primary-color-l));
+  --primary-color-90: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 5%));
+  --primary-color-80: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 8%));
+  --primary-color-70: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 10%));
+  --primary-color-60: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 12%));
+  --primary-color-50: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 15%));
+  --primary-color-40: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 18%));
+  --primary-color-30: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 20%));
+  --primary-color-20: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 22%));
+  --primary-color-10: hsl(var(--primary-color-h), var(--primary-color-s), calc(var(--primary-color-l) + 25%));
+
+
+  --secondary-color-1: hsl(var(--secondary-color-1-h), var(--secondary-color-1-s), var(--secondary-color-1-l));
+  --secondary-color-1-90: hsl(var(--secondary-color-1-h), var(--secondary-color-1-s), calc(var(--secondary-color-1-l) + 5%));
+  --secondary-color-1-80: hsl(var(--secondary-color-1-h), var(--secondary-color-1-s), calc(var(--secondary-color-1-l) + 10%));
+  --secondary-color-1-70: hsl(var(--secondary-color-1-h), var(--secondary-color-1-s), calc(var(--secondary-color-1-l) + 12%));
+  --secondary-color-1-60: hsl(var(--secondary-color-1-h), var(--secondary-color-1-s), calc(var(--secondary-color-1-l) + 14%));
+  --secondary-color-1-50: hsl(var(--secondary-color-1-h), var(--secondary-color-1-s), calc(var(--secondary-color-1-l) + 16%));
+  --secondary-color-1-40: hsl(var(--secondary-color-1-h), var(--secondary-color-1-s), calc(var(--secondary-color-1-l) + 18%));
+  --secondary-color-1-30: hsl(var(--secondary-color-1-h), var(--secondary-color-1-s), calc(var(--secondary-color-1-l) + 20%));
+  --secondary-color-1-20: hsl(var(--secondary-color-1-h), var(--secondary-color-1-s), calc(var(--secondary-color-1-l) + 22%));
+  --secondary-color-1-10: hsl(var(--secondary-color-1-h), var(--secondary-color-1-s), calc(var(--secondary-color-1-l) + 25%));
+
+  --secondary-color-2: hsl(var(--secondary-color-2-h), var(--secondary-color-2-s), var(--secondary-color-2-l));
+  --secondary-color-2-90: hsl(var(--secondary-color-2-h), var(--secondary-color-2-s), calc(var(--secondary-color-2-l) + 5%));
+  --secondary-color-2-80: hsl(var(--secondary-color-2-h), var(--secondary-color-2-s), calc(var(--secondary-color-2-l) + 10%));
+  --secondary-color-2-70: hsl(var(--secondary-color-2-h), var(--secondary-color-2-s), calc(var(--secondary-color-2-l) + 15%));
+  --secondary-color-2-60: hsl(var(--secondary-color-2-h), var(--secondary-color-2-s), calc(var(--secondary-color-2-l) + 20%));
+  --secondary-color-2-50: hsl(var(--secondary-color-2-h), var(--secondary-color-2-s), calc(var(--secondary-color-2-l) + 25%));
+  --secondary-color-2-40: hsl(var(--secondary-color-2-h), var(--secondary-color-2-s), calc(var(--secondary-color-2-l) + 30%));
+  --secondary-color-2-30: hsl(var(--secondary-color-2-h), var(--secondary-color-2-s), calc(var(--secondary-color-2-l) + 35%));
+  --secondary-color-2-20: hsl(var(--secondary-color-2-h), var(--secondary-color-2-s), calc(var(--secondary-color-2-l) + 40%));
+  --secondary-color-2-10: hsl(var(--secondary-color-2-h), var(--secondary-color-2-s), calc(var(--secondary-color-2-l) + 45%));
+
+
+  /* App Theme */
+  --body-bg-color: var(--primary-color-10);
+  --body-color: rgba(28, 37, 65, 1);
+  --header-color: var(--primary-color);
+  --header-nav-item-color: var(--secondary-color-1-10);
+  --header-nav-item-hover-bg: var(--primary-color-90);
+  --header-nav-item-active-bg: var(--primary-color-80);
+
+  --headline-color: var(--secondary-color-1);
+  --subheadline-color: var(--secondary-color-1-90);
+  --anchor-color: var(--secondary-color-2-90);
+
+  --hero-card-bg: var(--primary-color-20);
+  --hero-card-border-color: var(--primary-color-30);
+
+  --info-text-color: gray;
+}
